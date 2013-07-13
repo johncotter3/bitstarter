@@ -45,7 +45,7 @@ var assertURLExists = function(url) {
       sys.puts('Error: ' + result.message);
       //this.retry(5000); // try again after 5 sec
     } else {
-      sys.puts(result);
+      //sys.puts(result);
     }
   });
 };
